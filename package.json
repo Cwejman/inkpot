@@ -11,7 +11,7 @@
   ],
   "type": "module",
   "bin": {
-    "papx": "./bin/papx.js"
+    "papx": "bin/papx.js"
   },
   "main": "./src/pdf.js",
   "exports": {
