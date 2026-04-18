@@ -1,6 +1,9 @@
 {
-  "name": "papx",
+  "name": "@cwejman/papx",
   "version": "0.2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "CLI for Paper design tools — build optimised PDFs from Paper artboards via MCP.",
   "keywords": [
     "paper",
