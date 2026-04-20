@@ -7,10 +7,9 @@ Stateless pipeline: Paper → MCP → React → Chrome headless → optimised PD
 ## Quick start
 
 ```sh
-inkpot pdf --list          # list all artboards in the current Paper file
+inkpot list                # list all artboards in the current Paper file
 inkpot pdf vp              # frames vp/1, vp/2, ... → vp.pdf
 inkpot pdf ww -o web.pdf   # custom output path
-inkpot pdf vp --keep       # keep scratch files for debugging
 ```
 
 Frames must be named `<prefix>/<number>` in Paper (e.g. `vp/1`, `vp/2`). Legacy space-separator (`WW 2`) also matches. Numbers sort numerically.
